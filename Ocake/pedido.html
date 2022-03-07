@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido CakeO</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="inventarios.html">Inventarios</a></li>
+            <li><a href="listadoPedidos.html">Listado de Pedidos</a></li>
+            <li><a class="active" href="pedido.html">Haz tu Pedido</a></li>
+            <li><a href="catalogo.html">Catalogo</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="index.html">Inicio</a></li>
+        </ul>
+    <div class="contenedor">
+    <form class="form">
+        <h2>Pedidos</h2>
+            <label class="form-label" for="name">Nombre:</label><br>
+            <input class="form-input" type="text" id="name" name="name" placeholder="Nombre Completo"><br>
+            <label class="form-label" for="name">Telefono:</label><br>
+            <input class="form-input" type="text" id="tel" name="tel" placeholder="Telefono"><br>
+            <label class="form-label" for="email">Correo:</label><br>
+            <input class="form-input" type="email" id="email" name="email" placeholder="Correo@mail.com"><br>
+            <label class="form-label" for="email">Descripción general del pastel:</label><br>
+            <input class="form-input" type="text" id="desc" name="desc" placeholder="Descripción"><br>
+            <fieldset>
+                <legend>Sabores</legend>   
+                <input type="checkbox"  name="sabor" value="tres leches">
+                <label for="tres leches">Tres leches</label><br>
+                <input type="checkbox"  name="sabor" value="chocolate">
+                <label for="chocolate">Chocolate</label><br>
+                <input type="checkbox"  name="sabor" value="fresa">
+                <label for="fresa">Fresa</label>
+            </fieldset>
+            <fieldset>
+                <legend>Decoraciones</legend>   
+                <input type="checkbox" name="decoracion" value="fruta">
+                <label for="fruta">Fruta</label><br>
+                <input type="checkbox"  name="decoracion" value="letras">
+                <label for="letras">Letras</label><br>
+                <input type="checkbox"  name="decoracion" value="bodas">
+                <label for="bodas">Bodas</label>
+            </fieldset>
+            <button type="submit">Enviar</button>
+    </form>
+    </div>
+</body>
+</html>

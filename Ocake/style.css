@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    background-color: #f3e0d7;
+    font-family: Monaco;
+}
+
+h2{
+    color: #DB7093;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFAFA;
+    height: 40px;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    display: block;
+    color: #DB7093;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.active {
+    color: rgb(66, 64, 64);
+}
+
+.contenedor{
+    height: 40vmax;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+
+.form{
+    background-color: #F8F8FF;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.form input{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.form button{
+    padding: 0.5em 0.5em;
+    border: none;
+    background-color: #DB7093;
+    color:#F8F8F8;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form label{
+    text-align: left;
+}
+
+.contacto{
+    background-color: #F8F8F8;
+    width: 50%;
+    max-width: 600px;
+    height: 80%;
+    margin-top: 5vh;
+    margin-left: 30%;
+    margin-bottom: 5vh;
+    border-radius: 5px;
+}
+
+.contactoFlex{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagenLogo{
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 10vh;
+}
+
+.frase{
+    margin-left: 40%;
+    color: grey;
+}
+
+.tablaPedidos{
+    margin-left: 25%;
+}
+
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;    
+    margin: 45px;     
+    width: 600px; 
+    text-align: left;    
+    border-collapse: collapse; 
+}
+
+th {     
+    font-size: 13px;     
+    font-weight: normal;     
+    padding: 8px;     
+    background: #ffffff;
+    border-top: 4px solid #bd70cc;    
+    border-bottom: 1px solid #fff; 
+    color: rgb(221, 167, 221); 
+}
+
+td {    
+    padding: 8px;     
+    background: #e797ab;     
+    border-bottom: 1px solid #fff;
+    color: rgb(255, 255, 255);    
+    border-top: 1px solid transparent; 
+}
+
+tr:hover td { 
+    background: #ffffff; 
+    color: rgb(0, 0, 0); 
+}
+
+.caption {
+    color: #DB7093;
+    font-size: 30px;
+
+}
+
+.catalogo{
+    width: 200px;
+    height: 200px;
+}
